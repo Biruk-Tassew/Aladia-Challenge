@@ -1,5 +1,5 @@
 <template>
-    <div class=" -ml-56">
+    <div class=" -ml-72">
         <upper />
         <card />
         <CourseIncludes />
@@ -12,4 +12,5 @@
         <CourseRating />
         <MoreCourses />
     </div>
+    <SidePanel />
 </template>

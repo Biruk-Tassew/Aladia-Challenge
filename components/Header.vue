@@ -330,7 +330,7 @@
       </div>
 
 
-      <div class="flex items-center flex-1 max-w-md min-w-[45%] mx-4 border border-black rounded-full">
+      <div class="flex items-center flex-1 max-w-md min-w-[45%] mx-4 border border-black rounded-full bg-gray-100">
         <Icon icon="material-symbols:search" width="24" height="24"  class="text-gray-500 ml-4" />
         <input
           type="text"

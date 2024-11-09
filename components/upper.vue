@@ -23,7 +23,13 @@
             <!-- Rating and Student Count -->
             <div class="flex items-center text-yellow-400 mb-4">
                 <span class="text-xl font-semibold">4.5</span>
-                <star-rating :rating="4.5" :increment="0.5" :read-only="true"></star-rating>
+                <div class="flex items-center ml-1 pt-1">
+                    <Icon icon="mdi:star" class="text-yellow-500 inline-block" />
+                    <Icon icon="mdi:star" class="text-yellow-500 inline-block" />
+                    <Icon icon="mdi:star" class="text-yellow-500 inline-block" />
+                    <Icon icon="mdi:star" class="text-yellow-500 inline-block" />
+                    <Icon icon="ic:sharp-star-half" class="text-yellow-500 inline-block" />
+                </div>
                 <a href="#" class="ml-2 text-blue-400">(<span class="underline">5,328 ratings</span>)</a>
                 <span class="ml-2 text-gray-300">12,628 students</span>
             </div>
@@ -51,4 +57,5 @@
 
 <script setup>
 import { Icon } from '@iconify/vue';
+
 </script>
